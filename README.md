@@ -13,17 +13,37 @@ DataFrame
 A DataFrame is a two-dimensional table-like structure consisting of rows and columns.
 
 DataFrame Properties
-df.ndim → Number of dimensions
-df.size → Total number of elements
-df.shape → Number of rows and columns
-df.columns → Displays column names
-df.dtypes → Displays data type of each column
+Pandas provides several attributes to understand the structure of the data.
+Important attributes include:
+
+df.shape
+Returns the number of rows and columns.
+
+df.size
+Returns total number of elements.
+
+df.ndim
+Returns the number of dimensions.
+
+df.columns
+Displays the column names.
+
+df.dtypes
+Displays the data type of each column.
+These attributes help in analyzing and understanding the dataset.
+
+Accessing Data
+Data in a DataFrame can be accessed using different methods.
+Accessing a column
+Accessing a row
+Accessing specific element
 
 Statistical Analysis
 Pandas provides built-in functions such as:
 mean() → average value
 min() → minimum value
 max() → maximum value
+
 Viewing Data
 head() → displays first 5 rows
 tail() → displays last rows
